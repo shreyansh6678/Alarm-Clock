@@ -1,0 +1,136 @@
+body{
+     margin: 0;
+     padding: 0;
+    background:url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701956801.jpg");
+    /* background-position: center; */
+    background-size:cover;
+    background-repeat:no-repeat;
+    min-height: 100vh;
+}
+nav{
+    /* background-color:#40dfe9; */
+    background: linear-gradient(to right,#40dfe9,#113d54);
+    opacity: 0.8;
+    height: 90px;
+    width: 100vw;
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alarm{
+    font-size: 44px;
+    font-family: "Libertinus Serif Display";
+    letter-spacing: 4px;
+    font-weight: 800;
+}
+.container1{
+    margin-left: 950px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+h2{
+    margin: 10px;
+    background:linear-gradient(to right,#113d54,#40dfe9);
+    opacity: 0.7;
+    height:50px;
+    width: 300px;
+    font-size:55px;
+    text-align: center;
+    font-weight: 600;
+    font-family:'clockicons';
+}   
+.container2{
+    margin-top: 10px;
+    margin-left: 600px;
+    background:linear-gradient(to right,#c5f5ff,#40dfe9);
+     /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;  */
+   min-height: 250px;
+    width: 500px;
+}
+h1{
+    height: 60px;
+    width: 500px;
+    margin: 0;
+    text-align: center;
+    font-family:"Libertinus Serif Display";
+    font-weight: 800;
+    background:linear-gradient(to left,#113d54,#40dfe9);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* border: 2px solid black;  */
+}
+.time{
+    height: 40px;
+    width: 50px;
+    margin-left: 100px;
+    background: transparent;
+}
+.alarm-hour{
+    width: 50px;
+    padding: 4px;
+}
+.insidecontainer{
+    display: flex;
+    justify-content: center;
+}
+.boxs{
+    margin-top: 0px;
+    margin-right: 15px;
+    /* border:4px solid #40dfe9 ; */
+}
+.boxs select{
+    height: 50px;
+    width: 80px;
+    background:transparent;
+    font-size: 15px;
+    outline: none;
+    border: none;
+}
+.box1 select{
+    border:4px solid #40dfe9 ;
+    width:90px;
+    outline: none;
+    /* border:4px solid #c5f5ff ; */
+}
+.box2 select{
+    width:90px;
+    /* border:4px solid #40dfe9; */
+    outline: none;
+    border:4px solid #c5f5ff;
+}
+.box3 select{
+    border:4px solid #21c5d1 ;
+    width:90px;
+    outline: none;
+    /* border:4px solid #c5f5ff ; */
+}
+    #btn1{
+    height: 60px;
+    width: 140px;
+    margin-left: 180px;
+    margin-top: 30px;
+    font-size: 25px;
+    background-color: #40dfe9;
+    border-radius: 20px;
+}
+p{
+    font-size: 20px;
+
+}
+.my-button{
+    height: 30px;
+    width: 50px;
+    margin-top:10px;
+    border-radius: 10px;
+    background-color: red;
+    margin-left: 240px;
+}
+li{
+    list-style: none;
+}
